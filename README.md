@@ -3,21 +3,20 @@
 <!-- PROJECT SHIELDS -->
 
 <div align='center'>
-  <img src='https://img.shields.io/netlify/ae22e8e4-9d21-49bb-aa54-4ac93d30bbd5' alt='badge'/>
-  <a href="https://github.com/canwebe/SaITFeedBack/issues">
-  <img src='https://img.shields.io/github/issues/canwebe/SaITFeedBack' alt='badge'/>
+  <a href="https://github.com/devrabbani/basot/issues">
+  <img src='https://img.shields.io/github/issues/devrabbani/basot' alt='badge'/>
   </a>
-  <a href="https://github.com/canwebe/SaITFeedBack/network">
-   <img src='https://img.shields.io/github/forks/canwebe/SaITFeedBack' alt='badge'/>
+  <a href="https://github.com/devrabbani/basot/network">
+   <img src='https://img.shields.io/github/forks/devrabbani/basot' alt='badge'/>
   </a>
-  <a href="https://github.com/canwebe/SaITFeedBack/stargazers">
-    <img src='https://img.shields.io/github/stars/canwebe/SaITFeedBack' alt='badge'/>
+  <a href="https://github.com/devrabbani/basot/stargazers">
+    <img src='https://img.shields.io/github/stars/devrabbani/basot' alt='badge'/>
   </a>
-  <img src='https://img.shields.io/github/languages/top/canwebe/SaITFeedBack' alt='badge'/>
-  <img src='https://img.shields.io/github/languages/count/canwebe/SaITFeedBack' alt='badge'/>
-  <img src='https://img.shields.io/github/repo-size/canwebe/SaITFeedBack' alt='badge'/>
-  <img src='https://img.shields.io/github/contributors/canwebe/saitfeedback' alt='badge'/>
-  <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fcanwebe%2FSaITFeedBack">
+  <img src='https://img.shields.io/github/languages/top/devrabbani/basot' alt='badge'/>
+  <img src='https://img.shields.io/github/languages/count/devrabbani/basot' alt='badge'/>
+  <img src='https://img.shields.io/github/repo-size/devrabbani/basot' alt='badge'/>
+  <img src='https://img.shields.io/github/contributors/devrabbani/basot' alt='badge'/>
+  <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FdevRabbani%2FBASOT">
      <img src='https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fteamcanwebe' alt='badge'/>
   </a>
  
@@ -34,21 +33,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/canwebe/SaITFeedBack">
-    <img width="300px" height="300px" src="public/logo512n.png" alt="logo"/>
+  <a href="https://github.com/devrabbani/basot">
+    <img width="300px" height="300px" src="public/vercel.svg" alt="logo"/>
   </a>
 
-  <h3 align="center">SaITFeedBack</h3>
+  <h3 align="center">BASOT</h3>
 
   <p align="center">
-    Feedback Application For Sambhram Institute of Technology
+    Buying And Selling Of Things
     <br />
     <br />
-    <a href="https://saitfeedback.netlify.app">View Demo</a>
+    <a href="https://basot.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com/canwebe/SaITFeedBack/issues">Report Bug</a>
+    <a href="https://github.com/devrabbani/basot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/canwebe/SaITFeedBack/issues">Request Feature</a>
+    <a href="https://github.com/devrabbani/basot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -56,9 +55,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This is a full stack feedback application for Sambhram Institution. This app is the frontend of the whole feedback system. Admin section is only available to authorised department head only. Only Sambhram's Student can use this app.
+Initial Idea of Buying and selling things online within colleges
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -81,8 +80,7 @@ Main contributors to this project in both internal and external ways
 
 - [Golam Rabbani](https://github.com/devRabbani)
 - [Anish Tharu](https://github.com/tharuAnish)
-- [Ganesh Kumar](https://github.com/rohittiwari833)
-- [Mohd Zahid](https://github.com/Mohd-Zahid-01)
+- Shubham Raj
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
