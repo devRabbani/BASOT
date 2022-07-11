@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  width: 95%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
