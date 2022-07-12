@@ -1,9 +1,20 @@
+:root {
+  --primary-blue: #03407d;
+  --color-deepblue: #030e30;
+  --color-lightblue: #2a70c0;
+  --color-brown: #8e785d;
+  --color-brownlight: #f7bf50;
+  --color-green: #0dc962;
+  --color-pink: #f05660;
+  --color-white: #f4f5f6;
+  --primary-red: #da2525;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inter', sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
@@ -13,6 +24,15 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .wrapper {

@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.7rem;
+  /* background-color: white; */
+  flex-basis: 19%;
+}
+
+.menu:global(.active) {
+  color: var(--primary-red);
+}
+
+.menu svg {
+  font-size: 1.8rem;
+}
