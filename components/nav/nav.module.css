@@ -1,5 +1,5 @@
 .navWrapper {
-  background-color: var(--color-white);
+  background-color: white;
   border-bottom: 1px solid rgb(199, 199, 199);
   position: fixed;
   top: 0;

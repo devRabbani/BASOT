@@ -35,11 +35,6 @@ export default function Home() {
   const selectRef = useRef(null)
 
   // Functions
-  const handleClick = (e) => {
-    e.preventDefault()
-    selectRef.current.focus()
-  }
-
   const handleChange = (value) => {
     setCollege(value)
   }
@@ -50,8 +45,6 @@ export default function Home() {
         <title>Basot | Home</title>
       </Head>
       <div className={styles.collegeWrapper}>
-        <p>{college.label}</p>
-        <button onClick={handleClick}>select different college</button>
         <Select
           className={styles.select}
           ref={selectRef}
