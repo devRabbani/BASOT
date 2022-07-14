@@ -1,3 +1,51 @@
 .select {
-  width: 100vw;
+  width: 100%;
+}
+
+.collegeWrapper {
+  margin-top: 20px;
+}
+
+.searchBarWrapper {
+  background-color: #f4f5f654;
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 64px;
+  z-index: 99;
+  padding: 20px 0;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(174, 245, 221);
+  background-color: #fbe7bf;
+  font-size: 2rem;
+
+  border-radius: 50vh;
+  padding: 4px 10px 4px 15px;
+  gap: 5px;
+  border: 1px solid #d79f2f;
+}
+
+.search {
+  width: 90%;
+  border: none;
+  font-size: 1.2rem;
+  height: 100%;
+  color: #805500;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.search::placeholder {
+  text-transform: none;
+}
+.search:focus {
+  outline: none;
+}
+
+.icon {
+  width: 10%;
+  color: #d79f2f;
 }

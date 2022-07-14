@@ -47,6 +47,23 @@ button {
 
 main {
   min-height: 100vh;
-  display: grid;
-  place-items: center;
+  padding: 64px 0 140px;
+}
+
+h2.title {
+  position: relative;
+  width: fit-content;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+h2::after {
+  content: '';
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  margin-top: 3px;
+  background-color: var(--primary-red);
 }
