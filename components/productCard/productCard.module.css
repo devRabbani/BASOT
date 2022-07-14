@@ -1,0 +1,65 @@
+.card {
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.13);
+}
+
+.card:global(.small) {
+  min-width: 200px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.img {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(218, 218, 218);
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  padding: 8px 6px 10px;
+  font-size: 1rem;
+}
+.name {
+  font-size: 1.1rem;
+}
+
+.price {
+  color: var(--primary-blue);
+  margin: 5px 0;
+}
+
+.category {
+  padding: 4px 9px;
+  background-color: rgba(240, 150, 150, 0.655);
+  color: rgb(157, 39, 39);
+  width: fit-content;
+  border-radius: 50vw;
+  font-size: 0.7rem;
+}
+
+.heart {
+  position: absolute;
+  right: -1px;
+  top: 2px;
+  font-size: 2rem;
+  color: var(--primary-blue);
+}
+
+.bottomContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.date {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  word-spacing: -2px;
+}

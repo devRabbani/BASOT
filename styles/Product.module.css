@@ -1,0 +1,144 @@
+.mainWrapper {
+  background-color: white;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+.mainWrapper:nth-child(1) {
+  margin-top: 40px;
+}
+
+.photoWrapper {
+  height: 200px;
+  background-color: black;
+}
+
+.content {
+  margin-top: 15px;
+  font-size: 1.6rem;
+}
+
+.name {
+  font-weight: 300;
+}
+
+.price {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.priceWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.date {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.bottomWrapper {
+  padding: 15px 0;
+  display: flex;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 10px;
+}
+
+.category,
+.condition {
+  padding: 4px 10px;
+  border-radius: 50vw;
+  font-size: 0.8rem;
+}
+
+.category {
+  background-color: rgba(146, 196, 239, 0.426);
+  color: rgb(18, 82, 138);
+}
+
+.condition {
+  background-color: rgba(239, 146, 210, 0.426);
+  color: rgb(138, 18, 106);
+}
+
+.clgName {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 10px 0 5px;
+}
+
+.title {
+  font-size: 1.5rem;
+  position: relative;
+  width: fit-content;
+  font-weight: 500;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: var(--primary-red);
+  left: 0;
+  right: 0;
+  bottom: -2px;
+}
+
+.info {
+  padding: 15px 0 10px;
+  font-weight: 300;
+  text-align: justify;
+  word-break: break-all;
+  line-height: 23px;
+}
+
+.offerBtn {
+  background-color: var(--color-lightblue);
+  color: white;
+  padding: 12px 0;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  box-shadow: 2px 3px 18px rgba(0, 0, 0, 0.3);
+}
+
+.mainWrapper:global(.contact) {
+  position: sticky;
+  top: 66px;
+  z-index: 99;
+}
+
+.sellerCard {
+  background-color: var(--color-green);
+  padding: 20px;
+  margin: 20px 0 7px;
+  display: flex;
+  gap: 15px;
+  border-radius: 7px;
+}
+
+.sellerAvatar {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.sellerName {
+  font-size: 1.5rem;
+}
+
+.productListWrapper {
+  display: flex;
+  overflow-x: scroll;
+  padding: 30px 0;
+  gap: 20px;
+}
