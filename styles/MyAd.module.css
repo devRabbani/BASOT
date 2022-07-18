@@ -1,0 +1,5 @@
+.noData {
+  place-items: center;
+  display: grid;
+  min-height: 80vh;
+}

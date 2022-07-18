@@ -13,7 +13,13 @@ import {
 } from 'react-icons/md'
 import styles from './navLink.module.css'
 
-export default function NavLink({ href, children, name }) {
+export default function NavLink({
+  href,
+  children,
+  name,
+  catClicked,
+  setCatClicked,
+}) {
   const router = useRouter()
   const flag = router.pathname === href
   const iconMap = {
@@ -23,12 +29,20 @@ export default function NavLink({ href, children, name }) {
     chats: { out: <MdOutlineMessage />, fill: <MdMessage /> },
   }
 
+  const handleClick = () => {
+    if (catClicked) {
+      setCatClicked(false)
+    }
+    router.push(href)
+  }
+
   return (
-    <Link href={href}>
-      <a className={`${styles.menu} ${flag ? 'active' : ''}`}>
-        {flag ? iconMap[name].fill : iconMap[name].out}
-        {children}
-      </a>
-    </Link>
+    <div
+      onClick={handleClick}
+      className={`${styles.menu} ${flag ? 'active' : ''}`}
+    >
+      {flag ? iconMap[name].fill : iconMap[name].out}
+      {children}
+    </div>
   )
 }

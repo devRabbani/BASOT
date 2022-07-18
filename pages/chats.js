@@ -1,3 +1,5 @@
+import styles from '../styles/Chats.module.css'
+
 export default function Chats() {
-  return <h1>Chats</h1>
+  return <p className={styles.noData}>No Chats History Found</p>
 }

@@ -1,3 +1,4 @@
+import styles from '../styles/MyAd.module.css'
 export default function MyAd() {
-  return <h1>My Ad</h1>
+  return <p className={styles.noData}>Nothing you posted yet</p>
 }
