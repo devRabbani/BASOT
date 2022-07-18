@@ -3,6 +3,7 @@ import styles from '../../styles/Product.module.css'
 import moment from 'moment'
 import Link from 'next/link'
 import ProductCard from '../../components/productCard'
+import HorizontalList from '../../components/horizontalList'
 
 export default function ProductPage() {
   const router = useRouter()
@@ -64,22 +65,7 @@ export default function ProductPage() {
       <div className={styles.mainWrapper}>
         <div className='wrapper'>
           <h3 className={styles.title}>Releted</h3>
-          <div className={styles.productListWrapper}>
-            {[...Array(10)].map((item, i) => (
-              <ProductCard key={i} small={true} />
-            ))}
-          </div>
-        </div>
-      </div>
-      <div className={styles.mainWrapper}>
-        <div className='wrapper'>
-          <h3 className={styles.title}>Info</h3>
-          <p className={styles.info}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-            doloremque accusamus eaque pariatur saepe sit illo fugit unde sequi
-            magni! Minus quaerat consequuntur sint veniam inventore amet tempora
-            eligendi quos!
-          </p>
+          <HorizontalList data={[...Array(10)]} />
         </div>
       </div>
       <div className={styles.mainWrapper}>

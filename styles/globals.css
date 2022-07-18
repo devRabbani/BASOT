@@ -32,6 +32,28 @@ a {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  height: 12px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #292929;
+  background-color: #dbdbdb;
+  border-radius: 100vw;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #434343;
+  background-color: #a7b5e2;
+  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
+    inset -2px -2px 2px rgb(0 0 0 / 25%);
+  border-radius: 100vw;
+}
+
 button {
   outline: none;
   cursor: pointer;
@@ -53,7 +75,6 @@ main {
 h2.title {
   position: relative;
   width: fit-content;
-  margin-bottom: 20px;
   font-weight: 500;
   font-size: 1.4rem;
 }

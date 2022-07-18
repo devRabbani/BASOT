@@ -1,5 +1,6 @@
 .select {
   width: 100%;
+  z-index: 98;
 }
 
 .collegeWrapper {
@@ -7,11 +8,11 @@
 }
 
 .searchBarWrapper {
-  background-color: #f4f5f654;
+  background-color: rgba(244, 245, 246, 0.429);
   backdrop-filter: blur(8px);
   position: sticky;
   top: 64px;
-  z-index: 99;
+  z-index: 9;
   padding: 20px 0;
 }
 
@@ -20,12 +21,14 @@
   align-items: center;
   background-color: rgb(174, 245, 221);
   background-color: #fbe7bf;
+  background-color: transparent;
   font-size: 2rem;
 
   border-radius: 50vh;
   padding: 4px 10px 4px 15px;
   gap: 5px;
   border: 1px solid #d79f2f;
+  border: 1px solid var(--primary-red);
 }
 
 .search {
@@ -34,12 +37,14 @@
   font-size: 1.2rem;
   height: 100%;
   color: #805500;
+  color: var(--color-lightblue);
   background-color: transparent;
   text-transform: uppercase;
 }
 
 .search::placeholder {
   text-transform: none;
+  color: rgb(226, 155, 155);
 }
 .search:focus {
   outline: none;
@@ -48,4 +53,5 @@
 .icon {
   width: 10%;
   color: #d79f2f;
+  color: var(--primary-red);
 }

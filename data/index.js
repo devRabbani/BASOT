@@ -16,3 +16,45 @@ export const productData = [
     },
   },
 ]
+
+export const categoryData = [
+  {
+    name: 'Furniture',
+    subcat: [
+      'Table',
+      'Bed',
+      'Hhagha',
+      'GGa aagga',
+      'GGASTSV',
+      'TYAhshb',
+      'YYSbab',
+    ],
+  },
+  {
+    name: 'Pagal',
+    subcat: ['GGa aagga', 'GGASTSV', 'TYAhshb', 'YYSbab'],
+  },
+  {
+    name: 'Tseting',
+    subcat: [
+      'Table',
+      'Bed',
+      'Hhagha',
+      'GGa aagga',
+      'GGASTSV',
+      'TYAhshb',
+      'YYSbab',
+      'Table',
+      'Bed',
+      'Hhagha',
+    ],
+  },
+  {
+    name: 'Furniture Hhaha',
+    subcat: ['Table', 'Bed', 'Hhagha', 'Table', 'Bed', 'Hhagha'],
+  },
+  {
+    name: 'Sgsybeej',
+    subcat: ['Bed', 'Hhagha'],
+  },
+]

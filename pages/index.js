@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Select from 'react-select'
 import { MdSearch } from 'react-icons/md'
 import ProductList from '../components/productList'
+import HorizontalList from '../components/horizontalList'
 
 const options = [
   {
@@ -70,6 +71,8 @@ export default function Home() {
       </div>
 
       <div className='wrapper'>
+        <h2 className='title'>Recomended</h2>
+        <HorizontalList data={[...Array(8)]} margin='bottom' />
         <ProductList />
       </div>
     </>

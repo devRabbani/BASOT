@@ -3,10 +3,10 @@ import styles from './productCard.module.css'
 import { MdBookmarkBorder } from 'react-icons/md'
 import moment from 'moment'
 
-export default function ProductCard({ item, small }) {
+export default function ProductCard({ item, type }) {
   return (
     <Link href='/product/hgasdufatdf'>
-      <a className={`${styles.card} ${small && 'small'}`}>
+      <a className={`${styles.card} ${type || type}`}>
         <div className={styles.img}>
           <div className={styles.heart}>
             <MdBookmarkBorder />
